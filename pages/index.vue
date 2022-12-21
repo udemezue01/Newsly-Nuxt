@@ -1,6 +1,7 @@
 <template>
 <div class="">
   <Hero/>
+  <News/>
 </div>
 </template>
 
