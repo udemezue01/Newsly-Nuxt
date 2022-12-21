@@ -1,8 +1,15 @@
 <template>
-    <div class="h-screen bg-blue-50">
-  <TheNavBar/>
-  
+<div> 
+   
+   <NavBar/>
+ <div class="h-screen bg-gray-50">
     <Nuxt />
+ 
+   </div>
 
-    </div>
+    <FootBar/>
+
+
+</div>
+   
   </template>
