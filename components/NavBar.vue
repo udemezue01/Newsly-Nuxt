@@ -29,21 +29,11 @@
         </div>
   
         
-  
-        <div class="flex items-center space-x-3 ">
-  
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-forward h-8 w-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M12 18h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7.5" />
-            <path d="M3 6l9 6l9 -6" />
-            <path d="M15 18h6" />
-            <path d="M18 15l3 3l-3 3" />
-          </svg>
-  
-            <span> hi@Tchelete.com</span>
-  
+        <div class="flex justify-center">
+        <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Get Started</button>
+        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Join</button>
+      </div>
         
-        </div>
   
         <!-- The navbar toggle section -->
         <div class="lg:hidden items-center">
