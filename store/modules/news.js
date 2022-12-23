@@ -1,10 +1,20 @@
 
 
+const config={
+	headers:{
+		"X-Api-Key": "46afb473359e4504b833abf4cb8ef172"
+	
+	  }
+
+}
+
+const endPoint = "https://newsapi.org/v2/top-headlines?country=us"
+
 
 const state =  {
 
 	news:[],
-	portfolio:'',
+	filteredNews:[],
 
 };
 
@@ -18,6 +28,11 @@ const getters = {
 
 const mutations = {
 
+	SET_NEWS(state, news){
+
+		state.news = news 
+	},
+
 	
 
 };
@@ -26,16 +41,18 @@ const actions = {
 
  // The News list API 
 
-async newsList({commit}){
+async newsList({commit, $axios}){
 
 	try{
 
 
-		// const response = await apolloClient.query({query: PORTFOLIO_LIST})
-		// const news = JSON.stringify(response.data.portfolios)
-		// commit('SET_NEWS', news)
+		const response = await $axios.$get(endPoint, config)
+	
+		const news = response.articles
 
-		// console.log(news)
+		commit('SET_NEWS', news)
+
+		console.log(news)
 
 	}
 	catch(e){
