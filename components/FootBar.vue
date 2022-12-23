@@ -1,9 +1,9 @@
 <template>
  <footer class="text-gray-600 font-body">
   <div class="container p-10 mx-auto">
-    <div class="grid grid-cols-2 xl:grid-cols-6 justify-items-center text-center m-2 ">
+    <div class="grid grid-cols-2 xl:grid-cols-5 justify-items-center text-center m-2 ">
       <div class="px-4 space-y-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
             <a class="text-gray-600 hover:text-gray-800">First Link</a>
@@ -20,7 +20,7 @@
         </nav>
       </div>
       <div class="px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
             <a class="text-gray-600 hover:text-gray-800">First Link</a>
@@ -37,7 +37,7 @@
         </nav>
       </div>
       <div class="px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
             <a class="text-gray-600 hover:text-gray-800">First Link</a>
@@ -54,7 +54,7 @@
         </nav>
       </div>
       <div class="px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
             <a class="text-gray-600 hover:text-gray-800">First Link</a>
@@ -71,7 +71,7 @@
         </nav>
       </div>
       <div class="px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-900 tracking-wide text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
             <a class="text-gray-600 hover:text-gray-800">First Link</a>
@@ -87,23 +87,7 @@
           </li>
         </nav>
       </div>
-      <div class="px-4">
-        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10 space-y-4">
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">First Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Second Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-          </li>
-          <li>
-            <a class="text-gray-600 hover:text-gray-800">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
+     
     </div>
   </div>
   <div class="border-t border-gray-200">
