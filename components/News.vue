@@ -1,8 +1,8 @@
 <template>
     <section class="text-gray-600 bg-gray-50 font-body">
   <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-wrap -m-4">
-      <div class="p-4 md:w-1/3">
+    <div class="grid grid-cols-1 xl:grid-cols-3 gap-12">
+      <div class="" >
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog">
           <div class="p-6">
@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <div class="p-4 md:w-1/3">
+      <div class="">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog">
           <div class="p-6">
@@ -60,7 +60,7 @@
           </div>
         </div>
       </div>
-      <div class="p-4 md:w-1/3">
+      <div class="">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
           <div class="p-6">
@@ -98,12 +98,14 @@
 import { mapState } from 'vuex'
 export default {
 
+  computed: {
 
-  computed: mapState([
-  // map this.count to store.state.count
-  'news'
-]),
+    ...mapState(['news'])
+  },
+created(){
 
+  this.$store.dispatch('newsList')
+}
 
 }
 </script>

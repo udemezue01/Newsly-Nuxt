@@ -21,7 +21,7 @@
   
           <NuxtLink to="/" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md "> Home</NuxtLink>
   
-          <NuxtLink to="/" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> News</NuxtLink>
+          <NuxtLink to="/news" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> News</NuxtLink>
   
   
           
