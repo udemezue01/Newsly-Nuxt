@@ -1,4 +1,13 @@
 
+const config={
+			headers:{
+				"X-Api-Key": "46afb473359e4504b833abf4cb8ef172"
+			
+			  }
+		
+		}
+
+const endPoint = "https://newsapi.org/v2/top-headlines?country=us"
 
 const state =  {
 
@@ -34,18 +43,10 @@ async newsList({commit}){
 
 	try{
 
-		const config={
-			headers:{
-				"X-Api-Key": "46afb473359e4504b833abf4cb8ef172"
-			
-			  }
 		
-		}
-		
-		// const endPoint = "https://newsapi.org/v2/top-headlines?country=us"
 		const response = await this.$axios.$get(endPoint, config)
 		const news  	= response.articles
-
+	
 		commit('SET_NEWS', news)
 
 
