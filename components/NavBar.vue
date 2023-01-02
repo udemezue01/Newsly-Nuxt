@@ -23,7 +23,15 @@
   
           <NuxtLink to="/" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md "> Home</NuxtLink>
   
-          <NuxtLink to="/news" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> News</NuxtLink>
+          <NuxtLink to="/business" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Business</NuxtLink>
+
+          <NuxtLink to="/entertainment" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Entertainment</NuxtLink>
+
+          <NuxtLink to="/sports" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Sports</NuxtLink>
+
+          <NuxtLink to="/technology" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Technology</NuxtLink>
+
+          <NuxtLink to="/science" class="capitalize px-3 py-3 hover:bg-gray-50 rounded-md"> Science</NuxtLink>
   
   
           
@@ -31,9 +39,25 @@
         </div>
   
         
-        <div class="flex justify-center hidden xl:block">
-        <button class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Get Started</button>
-        <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Join</button>
+        <div class="hidden xl:block">
+
+          <NuxtLink to="/general">
+        
+
+
+            <button class="inline-flex text-white bg-green-500 border-0 space-x-2 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+            </svg>
+              Trending
+
+            </button>
+
+          </NuxtLink>
+       
+      
       </div>
         
   
