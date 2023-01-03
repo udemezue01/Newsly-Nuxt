@@ -3,12 +3,12 @@
   <div  class="container px-5 py-24 mx-auto" >
     <div class="grid grid-cols-1 xl:grid-cols-3 gap-12"  >
       
-
-      <div  class="" v-for="article in news" :key="">
+        
+      <div  class=""  v-for="(article, index) in news" :key="article.index">
         <div  class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog">
           <div class="p-6">
-            <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{{article}}</h2>
+            <h2 class="tracking-widest text-xs title-font font-medium text-gray-800 mb-1">{{article.title}} {{ index }} Hello</h2>
             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
             <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
             <div class="flex items-center flex-wrap ">
@@ -42,11 +42,12 @@
 import { mapState } from 'vuex'
 export default {
 
-  computed: {
+
+computed: {
 
     ...mapState(['news'])
   },
-created(){
+mounted(){
 
   this.$store.dispatch('newsList')
 }

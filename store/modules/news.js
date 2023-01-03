@@ -44,11 +44,12 @@ async newsList({commit}){
 	try{
 
 		
-		const response = await this.$axios.$get(endPoint, config)
-		const news  	= response.articles
+		const req = await this.$axios.$get(endPoint, config)
+		const news  	= req.articles
 	
 		commit('SET_NEWS', news)
 
+		console.log(news)
 
 	}
 	catch(e){

@@ -1,5 +1,10 @@
 <template>
 
+    <div>
+
+
+
+
 <section class="text-gray-600 font-body">
   <div class="container m-auto flex px-5 py-24 items-center justify-center flex-col">
     
@@ -10,6 +15,10 @@
     </div>
   </div>
 </section>
+
+</div>
+
+<!-- End of the news section -->
     
 </template>
     
