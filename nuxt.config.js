@@ -53,7 +53,7 @@ export default {
 
   },
   proxy: {
-    '/api/': 'http://newsly.pages.dev',
+    '/api/': 'https://newsapi.org',
     // '/api2/': 'http://api.another-website.com'
   },
 
