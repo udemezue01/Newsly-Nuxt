@@ -52,10 +52,14 @@ export default {
     proxy: true 
 
   },
-  proxy: {
-    '/api/': 'https://newsapi.org',
-    // '/api2/': 'http://api.another-website.com'
-  },
+  proxy:[
+
+    'https://newsapi.org/',
+  ],
+  // proxy: {
+  //   '/api/': 'https://newsapi.org/v2/top-headlines?country=us',
+  //   // '/api2/': 'http://api.another-website.com'
+  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
