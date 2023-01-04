@@ -9,9 +9,17 @@ const config={
 
 const endPoint = "https://newsapi.org/v2/top-headlines?country=us"
 
+const businessnewsendPoint = "https://newsapi.org/v2/top-headlines?country=us&category=business"
+
 const state =  {
 
 	news:[],
+	businessNews:[],
+	entertainmentNews:[],
+	sportNews:[],
+	technologyNews:[],
+	scienceNews:[],
+	trendingNews:[],
 	filteredNews:[],
 
 };
@@ -30,6 +38,11 @@ const mutations = {
 
 		state.news = news 
 	},
+
+	SET_BUSINESS_NEWS(state, businessNews){
+		state.businessNews = businessNews
+
+	}
 
 	
 
@@ -51,6 +64,28 @@ async newsList({commit}){
 
 		console.log(news)
 
+	}
+	catch(e){
+
+		console.log(e)
+	}
+
+},
+
+async businessnewsList({commit}){
+
+	try{
+
+		
+		const req = await this.$axios.$get(businessnewsendPoint, config)
+		const businessNews  	= req.articles
+
+		console.log(businessNews)
+
+	
+		commit('SET_BUSINESS_NEWS', businessNews)
+
+	
 	}
 	catch(e){
 
