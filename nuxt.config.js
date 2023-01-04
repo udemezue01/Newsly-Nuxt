@@ -51,10 +51,10 @@ export default {
     proxy: true 
 
   },
-  // proxy: {
-  //   '/api/': 'http://api.example.com',
-  //   '/api2/': 'http://api.another-website.com'
-  // },
+  proxy: {
+    '/api/': 'http://newsly.pages.dev',
+    // '/api2/': 'http://api.another-website.com'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
