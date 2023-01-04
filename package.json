@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
     "@vue/runtime-dom": "^3.2.45",
     "axios": "^0.27.2",
     "caniuse-lite": "^1.0.30001441",
