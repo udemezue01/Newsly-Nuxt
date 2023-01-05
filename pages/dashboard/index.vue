@@ -1,7 +1,7 @@
 <template>
 
     <div class="w-full max-w-lg p-6 m-auto mx-auto dark:bg-gray-800 font-body">
-        <h1 class="text-3xl font-semibold text-center text-gray-700 dark:text-white">Brand</h1>
+        <h1 class="text-3xl font-semibold text-center text-gray-700 dark:text-white">Create Post</h1>
     
         <form class="space-y-8">
             <div>
@@ -84,12 +84,7 @@ data(){
     }
 },
 
-created(){
 
-this.$store.dispatch('jobList')
-}
-
-    
     }
     </script>
         
