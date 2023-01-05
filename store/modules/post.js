@@ -16,9 +16,9 @@ const getters = {
 
 const mutations = {
 
-SET_POST(state, post){
+SET_POST(state, posts){
 
-state.posts = post 
+state.posts = posts 
 },
 
 
@@ -39,11 +39,13 @@ async postList({commit}){
   
 	  req.forEach((doc) => {
 		  // doc.data() is never undefined for query doc snapshots
-		  const post = []
-  
-		 console.log(doc.data())
 
-         commit("SET_POST", doc.data())
+		  const posts = doc.data()
+		  
+
+		  console.log(posts)
+
+         commit("SET_POST", posts)
 		  
 		});
 		

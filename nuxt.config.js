@@ -57,27 +57,12 @@ export default {
     },
     services: {
       auth: true,
-      firestore: true,// Just as example. Can be any other service.
-
+      firestore: true,
     }
  },
 
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  // axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    // baseURL: '/',
-  //   proxy: true 
 
-  // },
-  // proxy:[
-
-
-  // ],
-  // proxy: {
-  //   '/api/': 'https://newsapi.org/v2/top-headlines?country=us',
-  //   // '/api2/': 'http://api.another-website.com'
-  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
