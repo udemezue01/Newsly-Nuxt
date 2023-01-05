@@ -42,8 +42,26 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/proxy'
+    '@nuxtjs/proxy',
+    '@nuxtjs/firebase',
   ],
+  firebase: {
+    config: {
+      apiKey: 'AIzaSyAyfdV51q4f7LbexOe8feHwhgrSQHJieq0',
+      authDomain: 'newsly-df76d.firebaseapp.com',
+      projectId: 'newsly-df76d',
+      storageBucket: 'newsly-df76d.appspot.com',
+      messagingSenderId: '19010440940',
+      appId: '1:19010440940:web:248515c9b4f39afaeb9fc9',
+      measurementId: 'G-HET1K46BN0'
+    },
+    services: {
+      auth: true,
+      firestore: true,// Just as example. Can be any other service.
+
+    }
+ },
+
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
