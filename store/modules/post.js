@@ -36,17 +36,10 @@ async postList({commit}){
 	  
 	  const req = await this.$fire.firestore.collection('Post').get()
   
-	  req.forEach((doc) => {
-		  // doc.data() is never undefined for query doc snapshots
+	const posts = req.docs.map((doc) => doc.data());
+	console.log(posts)
 
-		  const posts = doc.data()
-		  
-
-		  console.log(posts)
-
-         commit("SET_POST", posts)
-		  
-		});
+	commit("SET_POST", posts)
 		
 	   
 	
