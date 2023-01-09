@@ -1,22 +1,23 @@
 <template>
-
     <div>
-
-
-
-
-<section class="text-gray-600 font-body">
-  <div class="container m-auto flex px-5 py-24 items-center justify-center flex-col">
     
-    <div class="text-center lg:w-2/3 w-full space-y-10">
-      <h1 class="title-font text-3xl xl:text-5xl font-bold text-gray-900">Business News</h1>
-      <p class="mb-8 leading-relaxed text-2xl">Locate articles and breaking news headlines from news sources and blogs.</p>
     
-    </div>
-  </div>
-</section>
+    
+        <section class="text-gray-600 font-body">
+          <div class="container m-auto flex px-5 py-24 items-center justify-center flex-col">
+            
+            <div class="text-center lg:w-2/3 w-full space-y-10">
+              <h1 class="title-font text-3xl xl:text-5xl font-bold text-gray-900">Trending </h1>
+              <p class="mb-8 leading-relaxed text-2xl">Locate articles and breaking news headlines from news sources and blogs.</p>
+            
+            </div>
+          </div>
+        </section>
+    
+    
+        <!-- The news section -->
 
-<section class="text-gray-600 bg-gray-100 font-body">
+        <section class="text-gray-600 bg-gray-100 font-body">
   <div  class="container px-5 py-24 mx-auto" >
     <div class="grid grid-cols-1 xl:grid-cols-3 gap-12"  >
       
@@ -43,31 +44,30 @@
     </div>
   </div>
 </section>
-
-</div>
-
-<!-- End of the news section -->
     
-</template>
     
+    </div>
+            
+        </template>
+            
 
-<script>
-import { mapState } from 'vuex'
-export default {
-  name:"Business",
-
-computed: {
-
-    ...mapState({
-      posts: state => state.post.posts
-
-    })
-  },
-created(){
-
-  this.$store.dispatch('postList')
-}
-
-}
-</script>
-    
+  <script>
+  import { mapState } from 'vuex'
+  export default {
+    name:"Trending",
+  
+  computed: {
+  
+      ...mapState({
+        posts: state => state.post.posts
+  
+      })
+    },
+  created(){
+  
+    this.$store.dispatch('postList')
+  }
+  
+  }
+  </script>
+            

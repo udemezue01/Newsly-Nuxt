@@ -39,9 +39,9 @@
         </div>
   
         
-        <div class="hidden xl:block">
-
-          <NuxtLink to="/general">
+        <div class="flex items-center space-x-4 hidden xl:block">
+ 
+          <NuxtLink to="/trending">
         
 
 
@@ -56,6 +56,22 @@
             </button>
 
           </NuxtLink>
+
+          <NuxtLink to="/dashboard">
+        
+
+
+        <button class="inline-flex text-white bg-gray-700 border-0 space-x-2 py-2 px-6 focus:outline-none hover:bg-gray-600 rounded text-lg">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+          </svg>
+
+          Post
+
+        </button>
+
+      </NuxtLink>
        
       
       </div>

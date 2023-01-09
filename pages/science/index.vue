@@ -45,10 +45,24 @@
         
     </template>
         
-        <script>
-        export default {
-          name: 'Science',
-        
-        }
-        </script>
-        
+
+<script>
+import { mapState } from 'vuex'
+export default {
+
+  name:"Science",
+
+computed: {
+
+    ...mapState({
+      posts: state => state.post.posts
+
+    })
+  },
+created(){
+
+  this.$store.dispatch('postList')
+}
+
+}
+</script>
