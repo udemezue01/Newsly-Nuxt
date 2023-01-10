@@ -36,8 +36,14 @@ async postList({commit}){
 	  
 	  const req = await this.$fire.firestore.collection('Post').get()
   
-	const posts = req.docs.map((doc) => doc.data());
-	// console.log(posts)
+	const posts = req.docs.map((doc) => (
+
+		{
+		id:doc.id,
+		...doc.data()
+		}
+
+	));
 	
 
 	commit("SET_POST", posts)
