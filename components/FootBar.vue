@@ -3,19 +3,43 @@
   <div class="container p-10 mx-auto">
     <div class="grid grid-cols-2 xl:grid-cols-5 justify-items-center text-center m-2 ">
       <div class="px-4 space-y-4">
-        <h2 class="title-font font-medium text-gray-50 tracking-wide text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-50 tracking-wide text-sm mb-3">NEWSLY</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
-            <a class="text-white hover:text-gray-50">First Link</a>
+            <a class="text-white hover:text-gray-50">Where bright minds connect together.</a>
+          </li>
+        
+        </nav>
+      </div>
+      <div class="px-4">
+        <h2 class="title-font font-medium text-gray-50 tracking-wide text-sm mb-3">PRODUCTS</h2>
+        <nav class="list-none mb-10 space-y-4">
+          <li>
+            <a class="text-white hover:text-gray-50">Teams</a>
           </li>
           <li>
-            <a class="text-white hover:text-gray-50">Second Link</a>
+            <a class="text-white hover:text-gray-50">Advertising</a>
           </li>
           <li>
-            <a class="text-white hover:text-gray-50">Third Link</a>
+            <a class="text-white hover:text-gray-50">Write for Us</a>
+          </li>
+          
+        </nav>
+      </div>
+      <div class="px-4">
+        <h2 class="title-font font-medium text-gray-50 tracking-wide text-sm mb-3">PAGES</h2>
+        <nav class="list-none mb-10 space-y-4">
+          <li>
+            <a class="text-white hover:text-gray-50">About us</a>
           </li>
           <li>
-            <a class="text-white hover:text-gray-50">Fourth Link</a>
+            <a class="text-white hover:text-gray-50">Sitemap</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-gray-50">Privacy Policy</a>
+          </li>
+          <li>
+            <a class="text-white hover:text-gray-50">FAQ</a>
           </li>
         </nav>
       </div>
@@ -23,67 +47,38 @@
         <h2 class="title-font font-medium text-gray-50 tracking-wide text-sm mb-3">CATEGORIES</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
-            <a class="text-white hover:text-gray-50">First Link</a>
+                 
+            <a class="text-white hover:text-gray-50"> Business</a>
           </li>
           <li>
-            <a class="text-white hover:text-gray-50">Second Link</a>
+            <a class="text-white hover:text-gray-50">Entertainment</a>
           </li>
           <li>
-            <a class="text-white hover:text-gray-50">Third Link</a>
+            <a class="text-white hover:text-gray-50">Sports</a>
           </li>
           <li>
-            <a class="text-white hover:text-gray-50">Fourth Link</a>
+            <a class="text-white hover:text-gray-50">Technology</a>
           </li>
-        </nav>
-      </div>
-      <div class="px-4">
-        <h2 class="title-font font-medium text-gray-50 tracking-wide text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10 space-y-4">
+
           <li>
-            <a class="text-white hover:text-gray-50">First Link</a>
-          </li>
-          <li>
-            <a class="text-white hover:text-gray-50">Second Link</a>
-          </li>
-          <li>
-            <a class="text-white hover:text-gray-50">Third Link</a>
-          </li>
-          <li>
-            <a class="text-white hover:text-gray-50">Fourth Link</a>
+            <a class="text-white hover:text-gray-50">Science</a>
           </li>
         </nav>
       </div>
       <div class="px-4">
-        <h2 class="title-font font-medium text-gray-50 tracking-wide text-sm mb-3">CATEGORIES</h2>
+        <h2 class="title-font font-medium text-gray-50 tracking-wide text-sm mb-3">CONNECT WITH US</h2>
         <nav class="list-none mb-10 space-y-4">
           <li>
-            <a class="text-white hover:text-gray-50">First Link</a>
+            <a class="text-white hover:text-gray-50">Facebook</a>
           </li>
           <li>
-            <a class="text-white hover:text-gray-50">Second Link</a>
+            <a class="text-white hover:text-gray-50">Twitter</a>
           </li>
           <li>
-            <a class="text-white hover:text-gray-50">Third Link</a>
+            <a class="text-white hover:text-gray-50"> Instagram</a>
           </li>
           <li>
-            <a class="text-white hover:text-gray-50">Fourth Link</a>
-          </li>
-        </nav>
-      </div>
-      <div class="px-4">
-        <h2 class="title-font font-medium text-gray-50 tracking-wide text-sm mb-3">CATEGORIES</h2>
-        <nav class="list-none mb-10 space-y-4">
-          <li>
-            <a class="text-white hover:text-gray-50">First Link</a>
-          </li>
-          <li>
-            <a class="text-white hover:text-gray-50">Second Link</a>
-          </li>
-          <li>
-            <a class="text-white hover:text-gray-50">Third Link</a>
-          </li>
-          <li>
-            <a class="text-white hover:text-gray-50">Fourth Link</a>
+            <a class="text-white hover:text-gray-50">YouTube</a>
           </li>
         </nav>
       </div>
