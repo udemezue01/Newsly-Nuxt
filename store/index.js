@@ -5,6 +5,7 @@ import Vuex from 'vuex'
 
 import news from './modules/news.js'
 import post from './modules/post.js'
+import auth from './modules/auth.js'
 
 Vue.use(Vuex)
 
