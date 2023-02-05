@@ -31,7 +31,7 @@ const state =  {
 
         try{
 
-            req  = await
+            // req  = await
 
         }
 
