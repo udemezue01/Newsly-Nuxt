@@ -71,6 +71,38 @@ const state =  {
           }
           
           },
+
+
+
+        async passReset({commit}, ...userDetails){
+    
+        try{
+          
+          
+        //   const req = await this.$fire.firestore.collection('Post').get()
+      
+        // const posts = req.docs.map((doc) => (
+    
+        //     {
+        //     id:doc.id,
+        //     ...doc.data()
+        //     }
+    
+        // ));
+        
+    
+        // commit("SET_POST", posts)
+            
+           
+        
+          
+          }
+          catch(e){
+          
+          console.log(e)
+          }
+          
+          },
       
     
     
