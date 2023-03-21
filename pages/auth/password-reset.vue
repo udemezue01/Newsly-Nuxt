@@ -27,7 +27,23 @@
     
     
     export default {
-        name: "PasswordResetPage",
+    name: "PasswordResetPage",
+    data(){
+
+        return{
+
+        }
+    },
+
+    methods:{
+
+        resetPassword:function (){
+
+
+
+        },
+        
+    }
     
     }
     </script>

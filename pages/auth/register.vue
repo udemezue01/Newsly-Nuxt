@@ -65,18 +65,29 @@
         name: "RegisterPage",
         data(){
 
-            return{
-                registerDetails{
+        return{
+        
+        registerDetails:{
 
-                    email:"",
-                    password:"",
+            email:"",
+            password:"",
 
-                }
-             
-            }
         }
-    
+         
+        }
+    },
+
+    methods:{
+
+        registerUser:function(){
+
+            
+        }
+
+
     }
+    
+}
     </script>
         
     

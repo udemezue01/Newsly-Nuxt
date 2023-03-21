@@ -81,7 +81,7 @@ export default {
 
     methods:{
 
-        loginUser:{
+        loginUser: function(){
             
         }
     }
