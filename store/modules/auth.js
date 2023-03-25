@@ -31,7 +31,7 @@ const state =  {
 
         try{
 
-            // req  = await
+           const req = await this.$fire.firestore.collection('Post').get()
 
         }
 
@@ -104,10 +104,32 @@ const state =  {
           
           },
       
+
+
+        async googleLogin({commit}, ...userDetails){
+                    
+            try {
+
+              const provider = new this.$fireModule.auth.GoogleAuthProvider()
+
+              const user = await this.$fire.auth.signInWithPopup(provider)
+
+              console.log(user) 
+
+              this.$router.push('/') 
+
+                } 
+
+                catch (e) {
+                  console.log(e)
+                }
+
+                  
+          },
+      
     
     
-    
-    
+
     
     };
     
